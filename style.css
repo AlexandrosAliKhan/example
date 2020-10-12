@@ -1,0 +1,58 @@
+
+
+#link1 {
+
+	border: 2px dashed #FEDCBA; 
+
+}
+
+
+.fancy-element {
+
+	text-decoration: underline;
+
+}
+
+
+#catmeme {
+
+	width: 90vw;
+	border: 5px solid green;
+
+}
+
+
+#catmeme:hover {
+
+	animation: spin 2s;
+
+	border-color: red;
+
+}
+
+
+
+@keyframes spin {
+
+	from {
+
+		transform: rotate(0deg);
+
+		border-color: green;
+
+	}
+
+
+	to {
+
+		transform: rotate(360deg);
+
+		border-color: red;
+
+	}
+
+}
+
+.header {
+    color: blue;
+}
